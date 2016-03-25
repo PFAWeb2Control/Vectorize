@@ -10,6 +10,7 @@ from nltk.corpus import stopwords
 stwf=stopwords.words('french')
 
 stwf.append('les')
+stwf.append("rt")
 
 
 
