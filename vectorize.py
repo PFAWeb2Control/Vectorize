@@ -7,6 +7,12 @@ from preprocess import Enleve_Accents
 from nltk.corpus import stopwords
 
 
+#########################################################
+#	vectorize a french corpus 			#
+#	      corpus stemmed				#
+#	       no stopwords				#
+#########################################################
+
 stwf=stopwords.words('french')
 
 stwf.append('les')
