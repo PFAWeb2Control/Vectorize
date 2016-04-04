@@ -4,6 +4,13 @@ from nltk.stem.snowball import FrenchStemmer
 from preprocess import Enleve_Accents
 import urllib
 
+#####################################################
+#						    #
+#	Generate stemmed french dictionary	    #
+#	python frenchdico.py		    	    #
+#						    #
+#####################################################
+
 
 url = "http://www.pallier.org/ressources/dicofr/liste.de.mots.francais.frgut.txt"
 file_name = "dico.txt"
